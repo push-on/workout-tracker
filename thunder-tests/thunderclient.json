@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "07b5e805-fc52-4639-abcc-cb050c890b62",
+    "colId": "ab752786-c6d3-44b4-bfba-f44e196bc199",
+    "containerId": "",
+    "name": "localhost:4000/",
+    "url": "localhost:4000/",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-12-15T02:42:54.738Z",
+    "modified": "2022-12-15T02:42:54.738Z",
+    "headers": []
+  },
+  {
+    "_id": "f7e48fcf-a835-4e24-bfb1-03ca9272faed",
+    "colId": "ab752786-c6d3-44b4-bfba-f44e196bc199",
+    "containerId": "",
+    "name": "localhost:4000/api/workouts/",
+    "url": "localhost:4000/api/workouts/",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-12-15T02:42:54.740Z",
+    "modified": "2022-12-15T02:42:54.740Z",
+    "headers": []
+  },
+  {
+    "_id": "53f0696b-268b-4310-8bae-68fbea2aad68",
+    "colId": "ab752786-c6d3-44b4-bfba-f44e196bc199",
+    "containerId": "",
+    "name": "localhost:4000/api/workouts/63788ce2821f7aba14ef2f32",
+    "url": "localhost:4000/api/workouts/63788ce2821f7aba14ef2f32",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-12-15T02:42:54.741Z",
+    "modified": "2022-12-15T05:17:10.884Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "b608cea6-6533-412a-a140-25db75073604",
+    "colId": "ab752786-c6d3-44b4-bfba-f44e196bc199",
+    "containerId": "",
+    "name": "localhost:4000/api/workouts/",
+    "url": "localhost:4000/api/workouts/",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-12-15T02:42:54.742Z",
+    "modified": "2022-12-15T03:16:51.612Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"title\": \"Bench Press\",\n  \"load\": 25,\n  \"reps\": 40\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "cab8bc0b-81e1-4af2-8a4e-fb53fb27d39c",
+    "colId": "ab752786-c6d3-44b4-bfba-f44e196bc199",
+    "containerId": "",
+    "name": "localhost:4000/api/workouts/1234",
+    "url": "localhost:4000/api/workouts/1234",
+    "method": "DELETE",
+    "sortNum": 50000,
+    "created": "2022-12-15T02:42:54.743Z",
+    "modified": "2022-12-15T02:42:54.743Z",
+    "headers": []
+  },
+  {
+    "_id": "c794ad48-8838-4ed0-a406-b7efa24acd17",
+    "colId": "ab752786-c6d3-44b4-bfba-f44e196bc199",
+    "containerId": "",
+    "name": "localhost:4000/api/workouts/63788ce2821f7aba14ef2f32",
+    "url": "localhost:4000/api/workouts/63788ce2821f7aba14ef2f32",
+    "method": "PATCH",
+    "sortNum": 45000,
+    "created": "2022-12-15T07:38:10.700Z",
+    "modified": "2022-12-15T07:40:02.236Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"reps\":50\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
