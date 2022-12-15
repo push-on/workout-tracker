@@ -1,5 +1,9 @@
+import { Paths } from './lib/paths'
+
 export default function App() {
   return (
-    <div>App</div>
+    <div>
+      <Paths/>
+    </div>
   )
 }
