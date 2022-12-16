@@ -16,12 +16,14 @@
     "colId": "ab752786-c6d3-44b4-bfba-f44e196bc199",
     "containerId": "",
     "name": "localhost:4000/api/workouts/",
-    "url": "localhost:4000/api/workouts/",
+    "url": "localhost:4000/api/workouts",
     "method": "GET",
     "sortNum": 20000,
     "created": "2022-12-15T02:42:54.740Z",
-    "modified": "2022-12-15T02:42:54.740Z",
-    "headers": []
+    "modified": "2022-12-16T14:56:59.469Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   },
   {
     "_id": "53f0696b-268b-4310-8bae-68fbea2aad68",
