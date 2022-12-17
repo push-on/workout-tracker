@@ -1,6 +1,8 @@
 import express from 'express'
 import * as dotenv from 'dotenv'
 import mongoose from 'mongoose'
+import cors from 'cors'
+// const cors = require('cors')
 
 import { router as workoutRoutes } from './routes/workouts.js'
 dotenv.config()
@@ -10,6 +12,7 @@ const app = express()
 
 // middleware
 app.use(express.json())
+app.use(cors())
 
 app.use((req, res, next) => {
   console.log(req.path, req.method)
