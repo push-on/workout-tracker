@@ -17,8 +17,8 @@ export const Home = () => {
   }, [])
 
   return (
-    <div className="home">
-      <div className="workouts">
+    <div className="">
+      <div className="space-y-5 max-w-md">
         {workouts && workouts.map(workout => (
           <WorkoutDetails workout={workout} key={workout._id} />
         ))}

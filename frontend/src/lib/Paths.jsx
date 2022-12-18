@@ -3,9 +3,9 @@ import { Home } from './Home'
 
 export const Paths = () => {
   return (
-    <div className=''>
+    <div className='p-20'>
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </div>
   )
