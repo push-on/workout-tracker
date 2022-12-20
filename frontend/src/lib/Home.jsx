@@ -22,9 +22,9 @@ export const Home = () => {
       <div className="max-w-sm space-y-5  grow">
         {workouts && workouts.map(workout => (
           <WorkoutDetails workout={workout} key={workout._id} />
-          ))}
+        ))}
       </div>
-          <WorkoutForm />
+      <WorkoutForm />
     </div>
   )
 }

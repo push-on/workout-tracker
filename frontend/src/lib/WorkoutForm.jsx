@@ -33,7 +33,7 @@ export const WorkoutForm = () => {
   return (
 
     <form className='flex flex-col space-y-3 grow max-w-xs pt-10 md:pt-0 ' onSubmit={handleSubmit}>
-      <h3 className='text-blue-400 text-2xl font-bold'>Add a New Workout</h3>
+      <div className='text-blue-400 text-2xl font-bold'>Add a New Workout</ div>
       <label className='font-bold'>Exercise Title</label>
       <input
         className='input-box '
