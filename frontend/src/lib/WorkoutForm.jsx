@@ -31,7 +31,6 @@ export const WorkoutForm = () => {
   }
 
   return (
-
     <form className='flex flex-col space-y-3 grow max-w-xs pt-10 md:pt-0 ' onSubmit={handleSubmit}>
       <div className='text-blue-400 text-2xl font-bold'>Add a New Workout</ div>
       <label className='font-bold'>Exercise Title</label>
@@ -59,7 +58,7 @@ export const WorkoutForm = () => {
         placeholder="5"
       />
       <button className='btn'>Add Workout</button>
-      {error && <div className='text-red-400 italic'>{error}</div>}
+      {error && <div className='p-3 rounded-lg border-4 border-red-500/20 bg-red-900/20 text-red-400 italic'>{error}</div>}
     </form>
   )
 }
