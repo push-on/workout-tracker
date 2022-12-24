@@ -3,7 +3,7 @@ import { Home } from './Home'
 
 export const Paths = () => {
   return (
-    <div className='p-20'>
+    <div className='px-20 py-5'>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
