@@ -6,7 +6,7 @@ export const WorkoutForm = () => {
   const [reps, setReps] = useState('')
   const [error, setError] = useState(null)
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     const workout = { title, load, reps }
     const response = await fetch('http://localhost:4000/api/workouts', {
