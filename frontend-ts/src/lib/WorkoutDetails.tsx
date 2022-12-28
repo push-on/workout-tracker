@@ -5,7 +5,6 @@ type wt = {
 }
 
 export const WorkoutDetails = ({ workout }: { workout: wt }) => {
-  // console.log(workout)
   return (
     <div className="bg-zinc-800 p-5 rounded-lg hover:shadow-lg shadow-black">
       <h2 className='text-blue-400 text-xl font-bold font-serif'>{workout.title}</h2>

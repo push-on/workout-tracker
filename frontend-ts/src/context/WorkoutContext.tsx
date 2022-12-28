@@ -1,8 +1,14 @@
 import { useReducer, createContext } from 'react'
 
-export const WorkoutsContext = createContext()
+interface AppContextInterface {
+  _id: string
+  title: string
+  load: number
+  reps: number
+}
+export const WorkoutsContext = createContext<AppContextInterface | null>(null)
 
-export const workoutsReducer = (state, action) => {
+export const workoutsReducer = (state: any, action: any) => {
   switch (action.type) {
     case 'SET_WORKOUTS':
       return {
@@ -17,13 +23,13 @@ export const workoutsReducer = (state, action) => {
   }
 }
 
-export const WorkoutContextProvider = ({ children }) => {
+export const WorkoutContextProvider = ({ children }: any) => {
   const [state, dispatch] = useReducer(workoutsReducer, {
     workouts: null
   })
 
   return (
-    <WorkoutsContext.Provider value={{state, dispatch}}>
+    <WorkoutsContext.Provider value={{ ...state, dispatch }}>
       {children}
     </WorkoutsContext.Provider>
   )
