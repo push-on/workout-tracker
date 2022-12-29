@@ -1,13 +1,16 @@
 import { useEffect } from 'react'
 import { useWorkoutsContext } from '../hooks/useWorkoutsContext'
+// components
 import { WorkoutDetails } from './WorkoutDetails'
 import { WorkoutForm } from './WorkoutForm'
-interface Workout {
+
+type Workout = {
   _id: string
   title: string
   load: number
   reps: number
 }
+
 export const Home = () => {
   const { workouts, dispatch } = useWorkoutsContext() as any
 

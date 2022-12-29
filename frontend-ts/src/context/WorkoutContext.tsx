@@ -1,12 +1,6 @@
 import { useReducer, createContext } from 'react'
 
-interface AppContextInterface {
-  _id: string
-  title: string
-  load: number
-  reps: number
-}
-export const WorkoutsContext = createContext<AppContextInterface | null>(null)
+export const WorkoutsContext = createContext<any>(null)
 
 export const workoutsReducer = (state: any, action: any) => {
   switch (action.type) {
