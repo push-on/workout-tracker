@@ -11,6 +11,7 @@ type Workout = {
   reps: number
 }
 
+
 export const Home = () => {
   const { workouts, dispatch } = useWorkoutsContext() as any
 
