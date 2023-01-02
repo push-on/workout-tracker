@@ -14,6 +14,8 @@ type Workout = {
 
 export const Home = () => {
   const { workouts, dispatch } = useWorkoutsContext() as any
+  // fixing type error
+  const workoutsArray: Workout[] = workouts
 
   useEffect(() => {
     const fetchWorkouts = async () => {
@@ -26,7 +28,6 @@ export const Home = () => {
     }
     fetchWorkouts()
   }, [])
-  const workoutsArray: Workout[] = workouts
 
   return (
     <div className="flex flex-col justify-between md:flex-row md:space-x-10  ">

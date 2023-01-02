@@ -63,7 +63,7 @@ export const WorkoutForm = () => {
         value={reps}
         placeholder="5"
       />
-      <button className='btn'>Add Workout</button>
+      <button className='btn btn-blue'>Add Workout</button>
       {error && <div className='p-3 rounded-lg border-4 border-red-500/20 bg-red-900/20 text-red-400 italic'>{error}</div>}
     </form>
   )
